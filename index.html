@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-them="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedar Telecome</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- DaisyUi cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    
+<style>
+    .font-poppins {
+        font-family: "Poppins", sans-serif;
+    }
+</style>
+<!-- Tailwind color  -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            "telecome-zone": '#E76F51',
+            "telecome-zone-bg": 'rgba ( 231, 111, 81, 0.1)',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body class=".font-poppins">
+    <!-- Header Secton -->
+     <header class="md:container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>News</a></li>                     
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="font-bold text-xl">Dedar Telecome Zone</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>News</a></li>                   
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="">
+                  <a class="btn bg-telecome-zone text-black">Login</a>
+                </div>
+              </div>
+        </nav>
+        <!-- Main image -->
+        <div class="carousel w-full lg:h-[550px] bg-telecome-zone-bg">
+            <!-- image 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              
+                <div class="flex flex-col lg:flex-row p:12 lg:p-24">
+                    <!-- Text Contant -->
+                     <div class="space-y-7 flex-1">
+                      <h2 class="text-6xl font-bold">Repair Your Phone And <br> Buy With Other Device</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi, qui ducimus repellat perspiciatis, eveniet vitae rerum cupiditate fugit quasi nostrum! Eveniet atque reprehenderit at eos sint laborum, fugiat iusto.</p>
+                      <button class="btn bg-telecome-zone text-black">Purchase</button>
+                     </div>
+                     <!-- Image Contant -->
+                      <div class="flex-1">
+                        <img
+                src="./images/mobile parts.jpg"
+                class="w-[400px]" />
+                      </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">               
+              </div>
+            </div>          
+          </div>
+     </header>
+
+     <!-- Main Section -->
+      <main class="md:container mx-auto">
+        <!-- Latest Device Section -->
+         <section class="my-24">
+          <h2 class="text-5xl font-bold text-center mb-12">Latest Device</h2>
+          <!-- cards -->
+           <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <!-- card 1 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./images/phone chargar.jpg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body space-y-5">
+                <h2 class="card-title">Mobile Charger</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-telecome-zone">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./images/button phone.jpeg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body space-y-5">
+                <h2 class="card-title">New Button Phone</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-telecome-zone">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./images/headphone.jpg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body space-y-5">
+                <h2 class="card-title">New HeadPhone</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-telecome-zone">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./images/router.jpg"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body space-y-5">
+                <h2 class="card-title">New Router</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-telecome-zone">Buy Now</button>
+                </div>
+              </div>
+            </div>
+           </div>
+
+           
+         </section>
+         <!-- FAQ Section -->
+          <section class="my-24">
+            <h2 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-telecome-zone">Question</span></h2>
+
+            <div class="hero">
+              <div class="hero-content flex-col lg:flex-row">
+                <img
+                  src="./images/faq.png"
+                  class="w-full rounded-lg shadow-2xl" />
+                <div class="space-y-2">
+                  <div class="collapse collapse-arrow border border-blue-300 ">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What are the most important things I should
+                      know about use my phone a bike?</div>
+                    <div class="collapse-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, asperiores, consequuntur saepe eaque veritatis mollitia iste unde impedit commodi, quos autem odit laborum maxime ipsa provident quidem veniam at in.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-300 ">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">How can I tell if my Mobile is old and I need a 
+                      new one?</div>
+                    <div class="collapse-content">
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, autem adipisci magnam incidunt cum sed architecto sapiente vitae animi aspernatur officia debitis doloremque sint? Provident voluptates autem accusantium temporibus voluptatem.</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-300 ">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to phone?</div>
+                    <div class="collapse-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit nisi aliquid quos quas voluptates voluptatibus, nesciunt libero architecto mollitia repellendus. Hic blanditiis, magni ad culpa ratione ea nobis illum?</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-300 ">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What rules should I follow when i use my phone?</div>
+                    <div class="collapse-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit nisi aliquid quos quas voluptates voluptatibus, nesciunt libero architecto mollitia repellendus. Hic blanditiis, magni ad culpa ratione ea nobis illum?</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow border border-blue-300 ">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-medium">What rules should I follow when i use my headphone?</div>
+                    <div class="collapse-content">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sit nisi aliquid quos quas voluptates voluptatibus, nesciunt libero architecto mollitia repellendus. Hic blanditiis, magni ad culpa ratione ea nobis illum?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+      </main>
+
+      <!-- Footer Section -->
+      <footer class="footer bg-black text-neutral-content p-10">
+        <aside>
+          <p>
+            ACME Industries Ltd.
+            <br />
+            Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Get The App</h6>
+          <div class="grid grid-col-1 gap-4">
+            <a>
+              <img class="w-36" src="./images/android.png" alt="">
+            </a>
+            <a>
+              <img class="w-36" src="./images/ios.png" alt="">
+            </a>
+          </div>
+        </nav>
+      </footer>
+</body>
+</html>
